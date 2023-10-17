@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  flask:
+    build: ./sample-app
+    container_name: flask
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/code
