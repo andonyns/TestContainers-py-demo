@@ -2,6 +2,4 @@
 
 Demo of a python flask app that has a playwright test.
 
-Demo of using TestContainers to build the website.
-
-Demo of using TestContainers with a docker compose file.
+See branch `docker-compose` for a demo of using TestContainers with a simple docker compose file.
